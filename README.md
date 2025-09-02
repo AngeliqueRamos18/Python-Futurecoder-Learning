@@ -2,8 +2,9 @@
 Welcome to my repository! I've been exploring and recalling some of programming languages since during my college years I haven't outsource yet in the field of programming :) This repository contains what I've learned in [Futurecoder](https://www.Futurecoder.io)
 
 **TABLE OF CONTENTS**
-- [Introducing Strings](#strings)
-- [Introducing Variables](#variables)
+- [Strings](#strings)
+- [Variables](#variables)
+- [For Loops](#for-loops)
 
 ---
 ## Strings
@@ -44,3 +45,23 @@ Files: \
 [Using Variables and print.py](/Variables/Using%20Variables%20and%20print.py/)
 
 ## For Loops
+*Loop* lets you repeat the same code over and over.
+
+2 Kinds of Loop:
+- `For` Loop
+- `While` Loop
+
+A `for` loop generally follows this structure:
+for `[variable]` in `[collection]`:\
+`[code to repeat]`
+
+**Note**: After the `:` symbol, the body should be indented (that is the body fo the code), not doing indentation leads to error.
+
+The **indent** contains `4 spaces`
+
+An *empty* string is a string containing no characters at all. Some initial empty values are `''`, `0`, `[]` - an empty list.
+
+Files:\
+[Introducing For Loops](/For%20Loops/Introducing%20For%20Loops.py)\
+[Basic Loop Exercise](/For%20Loops/Basic%20Loop%20Exercise.py)\
+[Building Up Strings](/For%20Loops/Building%20Up%20Strings.py)
