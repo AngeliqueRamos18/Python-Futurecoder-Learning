@@ -61,6 +61,26 @@ The **indent** contains `4 spaces`
 
 An *empty* string is a string containing no characters at all. Some initial empty values are `''`, `0`, `[]` - an empty list.
 
+Check out some exercises that I have made containing for loops and building up strings --> [Building Up Strings](/For%20Loops/Building%20Up%20Strings.py)
+
+
+### Basic Terminology
+An **expression** is a piece of code that has value.
+```python
+sentence = 'Hello' + name
+```
+
+`'Hello'`, `name`, and `'Hello ' + name` are *expressions*, while `sentence = ...` is a *statement*, which tells the computer to perform an action.
+
+A statement where a variable is given a value is called *assignment*.
+
+A `for` loop is a *compound statement*, it has a body of its own which contain other statements.
+
+*Evaluation* is the process of calculating the value of an expression.
+
+*Iteration* is the process of executing a loop. Each run through the loop is one iteration.
+
+
 Files:\
 [Introducing For Loops](/For%20Loops/Introducing%20For%20Loops.py)\
 [Basic Loop Exercise](/For%20Loops/Basic%20Loop%20Exercise.py)\
