@@ -85,3 +85,29 @@ Files:\
 [Introducing For Loops](/For%20Loops/Introducing%20For%20Loops.py)\
 [Basic Loop Exercise](/For%20Loops/Basic%20Loop%20Exercise.py)\
 [Building Up Strings](/For%20Loops/Building%20Up%20Strings.py)
+
+## If Statements
+*Booleans* will be part of statements which contains two values it's either `True` or `False`. They are menat to be used inside *if statements* or *conditionals*
+
+```python
+if <condition>: # any expression which evaluates to boolean 
+    <body> # an indented list of one or more statments
+```
+Sample: [Introducing If Statements.py](/If%20Statements/Introducing%20If%20Statements.py)
+
+*Compound Statements* like `for` loops and `if` statements have bodies which are a list of inner statements.  
+
+Of course if there is an `if` statement, there is an `else` statement, if the condition was not met, it will lead to `else` block.
+```python
+condition = True
+if condition:
+    print('Yes')
+else:
+    print('No')
+```
+There are some samples here of code that includes for loops and if else statements here -> [If and else.py](/If%20Statements/If%20and%20else.py)
+
+Files:\
+[Introducing If Statements.py](/If%20Statements/Introducing%20If%20Statements.py)\
+[Combining Compound Statement.py](/If%20Statements/Combining%20Compound%20Statement.py)\
+[If and else.py](/If%20Statements/If%20and%20else.py)
