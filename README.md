@@ -107,7 +107,18 @@ else:
 ```
 There are some samples here of code that includes for loops and if else statements here -> [If and else.py](/If%20Statements/If%20and%20else.py)
 
+There are several ways to obtain booleans without assigning them directly (w/ `if statements`). There are many *comparison operators* which compare the values of two expressions (The common one is `==` equality operator)
+
+```python
+print(1 + 2 == 3) # true
+print(4 + 5 == 6) # false
+print('ab' + 'c' == 'a' + 'bc') # true
+```
+
+`==` can be used in an `if` statement, refer to the code block starting on line `7-13` on [The Equality Operator.py](/If%20Statements/The%20Equality%20Operator.py)
+
 Files:\
 [Introducing If Statements.py](/If%20Statements/Introducing%20If%20Statements.py)\
 [Combining Compound Statement.py](/If%20Statements/Combining%20Compound%20Statement.py)\
-[If and else.py](/If%20Statements/If%20and%20else.py)
+[If and else.py](/If%20Statements/If%20and%20else.py)\
+[The Equality Operator.py](/If%20Statements/The%20Equality%20Operator.py)
