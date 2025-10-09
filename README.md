@@ -5,6 +5,7 @@ Welcome to my repository! I've been exploring and recalling some of programming 
 - [Strings](#strings)
 - [Variables](#variables)
 - [For Loops](#for-loops)
+- [Lists](#lists)
 
 ---
 ## Strings
@@ -117,8 +118,24 @@ print('ab' + 'c' == 'a' + 'bc') # true
 
 `==` can be used in an `if` statement, refer to the code block starting on line `7-13` on [The Equality Operator.py](/If%20Statements/The%20Equality%20Operator.py)
 
+To learn more about the usage of `if`, `else`, and `elif`. Check out this exercise --> [Introducing elif.py](/If%20Statements/Introducing%20elif.py)
+
+**Note:** `elif` can optionally be followed by one final `else` keyword.
+
+Of course there is an opposite to the *equality operator* `==`, the *not equals* operator `!=`.
+
+There are other comparison operators such as:
+- `<` and `>`
+- `=<` and `=>`
+
+When it's used with strings, Python compares strings **alphabetically (lexicographically)**, some of examples of other comparison operators can be found [here](/If%20Statements/Other%20Comparison%20Operator.py)
+
 Files:\
 [Introducing If Statements.py](/If%20Statements/Introducing%20If%20Statements.py)\
 [Combining Compound Statement.py](/If%20Statements/Combining%20Compound%20Statement.py)\
 [If and else.py](/If%20Statements/If%20and%20else.py)\
-[The Equality Operator.py](/If%20Statements/The%20Equality%20Operator.py)
+[The Equality Operator.py](/If%20Statements/The%20Equality%20Operator.py)\
+[Introducing elif.py](/If%20Statements/Introducing%20elif.py)\
+[Other Comparison Operator](/If%20Statements/Other%20Comparison%20Operator.py)
+
+## Lists
